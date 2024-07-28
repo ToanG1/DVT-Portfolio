@@ -1,7 +1,7 @@
-import Box1 from "@/components/main/workingExperiences/box1";
-import Box2 from "@/components/main/workingExperiences/box2";
-import Box3 from "@/components/main/workingExperiences/box3";
-import Box4 from "@/components/main/workingExperiences/box4";
+import Box1 from "@/components/main/workingExperiences/Box1";
+import Box2 from "@/components/main/workingExperiences/Box2";
+import Box3 from "@/components/main/workingExperiences/Box3";
+import Box4 from "@/components/main/workingExperiences/Box4";
 import Image from "next/image";
 
 export default function Home() {
