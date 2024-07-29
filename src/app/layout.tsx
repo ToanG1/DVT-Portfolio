@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dinh Van Toan Portfolio",
   description: "Developer portfolio of Dinh Van Toan",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({
