@@ -6,12 +6,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-dark-purple font-preahvihear px-10 sm:px-[10%] md:py-[5%]">
+    <main className="bg-dark-purple text-txt-primary font-preahvihear px-10 sm:px-[10%] md:py-[5%]">
       <div id="about-me">
-        <div
-          id="profile"
-          className="flex items-center w-full h-96 text-txt-primary"
-        >
+        <div id="profile" className="flex items-center w-full h-96">
           <div className="bg-radial-1 h-[70%] md:h-full w-[50%] md:w-2/3 lg:w-1/2 xl:w-1/4 relative">
             <div className="flex absolute -right-44 md:-right-32 xl:-right-44 top-10 md:top-2 xl:top-10 2xl:top-4">
               <Image
@@ -47,10 +44,7 @@ export default function Home() {
             </h4>
           </div>
         </div>
-        <div
-          id="about"
-          className="text-white w-full md:w-3/4 xl:w-1/2 md:my-10"
-        >
+        <div id="about" className="w-full md:w-3/4 xl:w-1/2 md:my-10">
           <div id="work" className="mb-3 md:mb-5">
             <h1 className="text-xl xl:text-5xl mb-1 md:mb-2">
               I am a Software Engineer
@@ -81,16 +75,19 @@ export default function Home() {
           </h3>
         </div>
       </div>
-      <div id="work-experiences">
-        <Box1 />
-        <Box2 />
-        <Box3 />
-        <Box4 />
+      <div id="work-experiences" className=" mt-20 md:mt-40">
+        <h1 className="text-xl md:text-4xl mb-5">Work Experience</h1>
+        <div id="works" className="grid grid-rows-2 grid-flow-col gap-4">
+          <Box1 />
+          <Box2 />
+          <Box3 />
+          <Box4 />
+        </div>
       </div>
       <div id="technologies"></div>
       <div id="projects"></div>
       <div id="contacts"></div>
-      <div className="bg-radial-1 h-96 w-60 "></div>
+      <div className="bg-radial-1 h-96 w-60"></div>
     </main>
   );
 }
