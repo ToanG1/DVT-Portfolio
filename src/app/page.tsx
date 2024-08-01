@@ -75,9 +75,12 @@ export default function Home() {
           </h3>
         </div>
       </div>
-      <div id="work-experiences" className=" mt-20 md:mt-40">
-        <h1 className="text-xl md:text-4xl mb-5">Work Experience</h1>
-        <div id="works" className="grid grid-rows-2 grid-flow-col gap-4">
+      <div id="work-experiences" className="mt-20 md:mt-40">
+        <h1 className="text-xl md:text-4xl mb-5 md:mb-10">Work Experience</h1>
+        <div
+          id="works"
+          className="grid grid-rows-4 md:grid-rows-2 grid-flow-col gap-4"
+        >
           <Box1 />
           <Box2 />
           <Box3 />
