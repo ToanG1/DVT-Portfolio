@@ -44,7 +44,7 @@ export default function Home() {
             </h4>
           </div>
         </div>
-        <div id="about" className="w-full md:w-3/4 xl:w-1/2 md:my-10">
+        <div id="about" className="w-full md:w-3/4 md:my-10">
           <div id="work" className="mb-3 md:mb-5">
             <h1 className="text-xl xl:text-5xl mb-1 md:mb-2">
               I am a Software Engineer
