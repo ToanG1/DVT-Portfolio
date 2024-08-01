@@ -6,13 +6,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-dark-purple font-preahvihear px-2 sm:px-[10%] md:py-[5%]">
+    <main className="bg-dark-purple font-preahvihear px-10 sm:px-[10%] md:py-[5%]">
       <div id="about-me">
         <div
           id="profile"
           className="flex items-center w-full h-96 text-txt-primary"
         >
-          <div className="bg-radial-1 h-[70%] md:h-full w-[40%] md:w-2/3 lg:w-1/2 xl:w-1/4 relative">
+          <div className="bg-radial-1 h-[70%] md:h-full w-[50%] md:w-2/3 lg:w-1/2 xl:w-1/4 relative">
             <div className="flex absolute -right-44 md:-right-32 xl:-right-44 top-10 md:top-2 xl:top-10 2xl:top-4">
               <Image
                 src="/images/portfolio/arrow.png"
@@ -47,7 +47,39 @@ export default function Home() {
             </h4>
           </div>
         </div>
-        <div id="about"></div>
+        <div
+          id="about"
+          className="text-white w-full md:w-3/4 xl:w-1/2 md:my-10"
+        >
+          <div id="work" className="mb-3 md:mb-5">
+            <h1 className="text-xl xl:text-5xl mb-1 md:mb-2">
+              I am a Software Engineer
+            </h1>
+            <h3 className="flex text-[10px] md:text-base">
+              Currently, I am web developer at
+              <a
+                className="text-red-600 flex"
+                href="https://fabercompany.com.vn/"
+                target="_blank"
+              >
+                <Image
+                  src="/images/portfolio/faber-logo.png"
+                  alt="faber"
+                  width={15}
+                  height={15}
+                  className="mx-1 h-1/2 md:h-full"
+                />
+                Faber Viet Nam
+              </a>
+              .
+            </h3>
+          </div>
+          <h3 id="about-me" className="text-[10px] md:text-base">
+            A self-taught Software Developer, functioning in the industry for 1+
+            years now. I make meaningful and delightful products that create an
+            equilibrium between user needs and business goals.
+          </h3>
+        </div>
       </div>
       <div id="work-experiences">
         <Box1 />
