@@ -59,9 +59,9 @@ export default function Home() {
                 <Image
                   src="/images/portfolio/faber-logo.png"
                   alt="faber"
-                  width={15}
-                  height={15}
-                  className="mx-1 h-1/2 md:h-full"
+                  width={100}
+                  height={100}
+                  className="mx-1 w-[10px] md:w-[16px]"
                 />
                 Faber Viet Nam
               </a>
