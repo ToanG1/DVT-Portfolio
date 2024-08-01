@@ -32,7 +32,7 @@ export default function Home() {
             />
           </div>
           <div id="slogan" className="w-1/3 md:w-1/2 xl:w-2/3 mt-2">
-            <h3 className="text-[10p] md:xll-base xl:text-2xl">
+            <h3 className="text-[10px] md:xll-base xl:text-2xl">
               A Developer who
             </h3>
             <h1 className="xl:leading-[4rem] text-base md:text-4xl xl:text-6xl mb-3 md:pb-0 xl:w-2/3">
