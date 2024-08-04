@@ -79,18 +79,18 @@ export default function Home() {
         <h1 className="text-xl md:text-4xl mb-5 md:mb-10">Work Experience</h1>
         <div
           id="works"
-          className="grid grid-rows-4 md:grid-rows-2 grid-flow-col gap-4"
+          className="grid grid-cols-1 xl:grid-cols-2 gap-4 relative"
         >
           <Box1 />
           <Box2 />
           <Box3 />
           <Box4 />
+          <div className="bg-radial-1 h-[180%] w-1/2 absolute -top-1/2 left-1/4 z-0"></div>
         </div>
       </div>
       <div id="technologies"></div>
       <div id="projects"></div>
       <div id="contacts"></div>
-      <div className="bg-radial-1 h-96 w-60"></div>
     </main>
   );
 }
