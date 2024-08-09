@@ -88,7 +88,7 @@ export default function Home() {
           <div className="hidden xl:block bg-radial-1 h-[180%] w-1/2 absolute -top-1/2 left-1/4 z-0"></div>
         </div>
       </div>
-      <div id="technologies" className="px-10 py-40">
+      <div id="technologies" className="xl:px-10 py-40">
         <h2 className="text-xl md:text-3xl text-center mb-2">
           My enthusiasm for
           <strong className="text-purple-1"> web development </strong>
