@@ -85,10 +85,33 @@ export default function Home() {
           <Box2 />
           <Box3 />
           <Box4 />
-          <div className="bg-radial-1 h-[180%] w-1/2 absolute -top-1/2 left-1/4 z-0"></div>
+          <div className="hidden xl:block bg-radial-1 h-[180%] w-1/2 absolute -top-1/2 left-1/4 z-0"></div>
         </div>
       </div>
-      <div id="technologies"></div>
+      <div id="technologies" className="mx-10 my-40">
+        <h2 className="text-xl md:text-3xl text-center mb-2">
+          My enthusiasm for
+          <strong className="text-purple-1"> web development </strong>
+          has led me to gain extensive experience
+        </h2>
+        <h3 className="text-center text-base md:text-xl">
+          Mastering a wide range of technologies and methodologies.
+        </h3>
+        <Image
+          src="/images/portfolio/technologies.png"
+          alt="technologies"
+          width={6400}
+          height={4406}
+          className="w-full hidden xl:block items-center mx-auto mt-10"
+        />
+        <Image
+          src="/images/portfolio/technologies-mb.png"
+          alt="technologies"
+          width={6400}
+          height={4406}
+          className="w-full xl:hidden items-center mx-auto mt-10"
+        />
+      </div>
       <div id="projects"></div>
       <div id="contacts"></div>
     </main>
