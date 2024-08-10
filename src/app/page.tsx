@@ -8,7 +8,7 @@ import { TbClick } from "react-icons/tb";
 
 export default function Home() {
   return (
-    <main className="bg-dark-purple text-txt-primary font-preahvihear px-10 sm:px-[10%] md:py-[5%]">
+    <main className="bg-dark-purple text-txt-primary font-preahvihear px-10 sm:px-[10%] py-10 md:py-[5%]">
       <div id="about-me">
         <div id="profile" className="flex items-center w-full h-96">
           <div className="bg-radial-1 h-[70%] md:h-full w-[50%] md:w-2/3 lg:w-1/2 xl:w-1/4 relative">
@@ -146,7 +146,23 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="contacts"></div>
+      <div id="contacts" className="w-full md:w-2/3">
+        <h3 className="text-xl xl:text-3xl my-10 md:my-20">Contact</h3>
+        <p className="my-6 text-base">
+          I'm currently looking to join a cross-functional team uthat values
+          improving people's lives through accesible technology. Or have a
+          project in mind?
+          <strong className="text-purple-1"> Let's connect. </strong>
+        </p>
+        <p>Toandinh3032@gmail.com</p>
+        <a
+          href="https://www.linkedin.com/in/toang1/"
+          target="_blank"
+          className="text-blue-600 underline"
+        >
+          My Linkedin
+        </a>
+      </div>
     </main>
   );
 }
