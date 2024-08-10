@@ -114,16 +114,16 @@ export default function Home() {
           className="w-full xl:hidden items-center mx-auto mt-10"
         />
       </div>
-      <div id="projects" className=" py-10 md:py-40">
-        <div id="project1" className="block md:flex xl:mx-20 md:relative">
-          <div className="w-full md:w-1/2 mt-20">
+      <div id="projects" className="py-10 xl:py-40">
+        <div id="project1" className="block xl:flex xl:relative">
+          <div className="w-full xl:w-1/2 mt-20">
             <span className="text-purple-1 text-base xl:text-xl">
               Featured Project
             </span>
             <h3 className="text-txt-secondary text-2xl xl:text-4xl">
               Hoc Voi AI
             </h3>
-            <div className="md:w-[110%] text-xs xl:text-base text-txt-primary border-2 border-black p-6 md:pr-16 bg-white/[.1] rounded-xl my-4 relative z-20">
+            <div className="xl:w-[110%] text-xs xl:text-base text-txt-primary border-2 border-black p-6 xl:pr-16 bg-white/[.1] rounded-xl my-4 relative z-20">
               A web app for all users want to learn something new for any
               category or topic. Here we provide a platform for users to learn
               and share their roadmap to study something. The best part of this
@@ -135,11 +135,11 @@ export default function Home() {
               <TbClick size={30} />
             </div>
           </div>
-          <div className="w-full md:w-1/2 relative md:absolute top-0 right-0 h-[23rem]">
-            <div className="hidden md:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-60 z-0"></div>
-            <div className="hidden md:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-40 z-0"></div>
-            <div className="hidden md:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-20 z-0"></div>
-            <div className="hidden md:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-0 z-0"></div>
+          <div className="w-full xl:w-1/2 relative xl:absolute top-0 right-0 h-[23rem]">
+            <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-60 z-0"></div>
+            <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-40 z-0"></div>
+            <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-20 z-0"></div>
+            <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-0 z-0"></div>
             <div className="bg-purple-6 h-full w-full absolute top-0 right-0 z-10 rounded-lg overflow-hidden">
               <div className="bg-white h-full w-full mt-[5%] ml-[5%] mx-auto rounded-lg"></div>
             </div>
