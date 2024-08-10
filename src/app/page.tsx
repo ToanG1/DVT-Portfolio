@@ -123,7 +123,7 @@ export default function Home() {
             <h3 className="text-txt-secondary text-2xl xl:text-4xl">
               Hoc Voi AI
             </h3>
-            <div className="md:w-[110%] text-xs xl:text-xl text-txt-primary border-2 border-black p-6 md:pr-16 bg-white/[.1] rounded-xl my-4 relative z-20">
+            <div className="md:w-[110%] text-xs xl:text-base text-txt-primary border-2 border-black p-6 md:pr-16 bg-white/[.1] rounded-xl my-4 relative z-20">
               A web app for all users want to learn something new for any
               category or topic. Here we provide a platform for users to learn
               and share their roadmap to study something. The best part of this
