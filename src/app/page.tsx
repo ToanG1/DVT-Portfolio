@@ -4,7 +4,11 @@ import Box3 from "@/components/main/workingExperiences/Box3";
 import Box4 from "@/components/main/workingExperiences/Box4";
 import Image from "next/image";
 
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import { TbClick } from "react-icons/tb";
+import ImageSlider from "@/components/main/ImageSlider";
 
 export default function Home() {
   return (
@@ -123,7 +127,7 @@ export default function Home() {
             <h3 className="text-txt-secondary text-2xl xl:text-4xl">
               Hoc Voi AI
             </h3>
-            <div className="xl:w-[110%] text-xs xl:text-base text-txt-primary border-2 border-black p-6 xl:pr-16 bg-white/[.1] rounded-xl my-4 relative z-20">
+            <div className="text-xs xl:text-base text-txt-primary border-2 border-black p-6 xl:pr-16 bg-white/[.1] rounded-xl my-4 relative z-20 -mr-[50px]">
               A web app for all users want to learn something new for any
               category or topic. Here we provide a platform for users to learn
               and share their roadmap to study something. The best part of this
@@ -141,30 +145,33 @@ export default function Home() {
             <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-20 z-0"></div>
             <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -left-0 z-0"></div>
             <div className="bg-purple-6 h-full w-full absolute top-0 right-0 z-10 rounded-lg overflow-hidden">
-              <div className="bg-white h-full w-full mt-[5%] ml-[5%] mx-auto rounded-lg"></div>
+              <div className="bg-white h-full w-full mt-6 ml-6 mx-auto rounded-lg"></div>
             </div>
           </div>
         </div>
-        <div id="project2" className="block xl:flex xl:flex-row-reverse xl:relative">
+        <div id="project2" className="block xl:flex xl:flex-row-reverse xl:relative mt-[200px]">
           <div className="w-full xl:w-1/2 mt-20 xl:ml-auto">
-            <span className="text-purple-1 text-base xl:text-xl">
-              Featured Project
-            </span>
-            <h3 className="text-txt-secondary text-2xl xl:text-4xl">
-              Hoc Voi AI (Left Aligned)
-            </h3>
-            <div className="xl:w-[110%] text-xs xl:text-base text-txt-primary border-2 border-black p-6 xl:pl-16 bg-white/[.1] rounded-xl my-4 relative z-20">
-              A web app for all users want to learn something new for any
-              category or topic. Here we provide a platform for users to learn
-              and share their roadmap to study something. The best part of this
-              application is that it can create a roadmap for any topic that
-              user require with just one click and 30 seconds.
+            <div className="text-right -ml-[50px]">
+              <span className="text-purple-1 text-base xl:text-xl">
+                Side Project
+              </span>
+              <h3 className="text-txt-secondary text-2xl xl:text-4xl">
+                <a href="https://sprint-planning-eysqxxukka-de.a.run.app" target="_blank" rel="noopener noreferrer">
+                Sprint Planning Poker 
+                </a>
+              </h3>
+              <div className="xl:w-[110%] text-xs xl:text-base text-txt-primary border-2 border-black p-6 xl:pl-16 bg-white/[.1] rounded-xl my-4 relative z-20">
+                Sprint Planning Poker is a real-time estimation tool for agile teams. Built over a weekend to replace a paid service, it lets users create rooms, add issues, vote, and reveal results with average scores. It’s a lightweight, free solution to streamline sprint planning and improve team collaboration.
+              </div>
+              <div className="flex mb-6 justify-end">
+                <a href="https://sprint-planning-eysqxxukka-de.a.run.app" target="_blank" rel="noopener noreferrer">
+                  <TbClick size={30} className="mx-4" />
+                </a>
+                <a href="https://sprint-planning-eysqxxukka-de.a.run.app" target="_blank" rel="noopener noreferrer">
+                  <TbClick size={30} />
+                </a>
+              </div>
             </div>
-            <div className="flex mb-6">
-              <TbClick size={30} className="mx-4" />
-              <TbClick size={30} />
-            </div>
-
             <div className="w-full xl:w-1/2 relative xl:absolute top-0 left-0 h-[23rem]">
               <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -right-60 z-0"></div>
               <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -right-40 z-0"></div>
@@ -172,7 +179,9 @@ export default function Home() {
               <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -right-0 z-0"></div>
 
               <div className="bg-purple-6 h-full w-full absolute top-0 left-0 z-10 rounded-lg overflow-hidden">
-                <div className="bg-white h-full w-full mt-[5%] mr-[5%] mx-auto rounded-lg"></div>
+                <div className="bg-white h-full w-full mt-6 -ml-6 mx-auto rounded-lg">
+                  <ImageSlider images={["/images/portfolio/spp-room.png", "/images/portfolio/spp-vote.png"]} />
+                </div>
               </div>
             </div>
           </div>
