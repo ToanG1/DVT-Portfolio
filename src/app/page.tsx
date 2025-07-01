@@ -145,6 +145,38 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div id="project2" className="block xl:flex xl:flex-row-reverse xl:relative">
+          <div className="w-full xl:w-1/2 mt-20 xl:ml-auto">
+            <span className="text-purple-1 text-base xl:text-xl">
+              Featured Project
+            </span>
+            <h3 className="text-txt-secondary text-2xl xl:text-4xl">
+              Hoc Voi AI (Left Aligned)
+            </h3>
+            <div className="xl:w-[110%] text-xs xl:text-base text-txt-primary border-2 border-black p-6 xl:pl-16 bg-white/[.1] rounded-xl my-4 relative z-20">
+              A web app for all users want to learn something new for any
+              category or topic. Here we provide a platform for users to learn
+              and share their roadmap to study something. The best part of this
+              application is that it can create a roadmap for any topic that
+              user require with just one click and 30 seconds.
+            </div>
+            <div className="flex mb-6">
+              <TbClick size={30} className="mx-4" />
+              <TbClick size={30} />
+            </div>
+
+            <div className="w-full xl:w-1/2 relative xl:absolute top-0 left-0 h-[23rem]">
+              <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -right-60 z-0"></div>
+              <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -right-40 z-0"></div>
+              <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -right-20 z-0"></div>
+              <div className="hidden xl:block bg-radial-2 h-[200%] w-full absolute -top-1/2 -right-0 z-0"></div>
+
+              <div className="bg-purple-6 h-full w-full absolute top-0 left-0 z-10 rounded-lg overflow-hidden">
+                <div className="bg-white h-full w-full mt-[5%] mr-[5%] mx-auto rounded-lg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div id="contacts" className="w-full md:w-2/3">
         <h3 className="text-xl xl:text-3xl my-10 md:my-20">Contact</h3>
