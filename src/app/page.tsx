@@ -71,7 +71,7 @@ export default function Home() {
             </h3>
           </div>
           <h3 id="about-me" className="text-xs md:text-base">
-            A self-taught Software Developer, functioning in the industry for 1+
+            A self-taught Software Developer, functioning in the industry for 2+
             years now. I make meaningful and delightful products that create an
             equilibrium between user needs and business goals.
           </h3>
